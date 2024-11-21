@@ -10,9 +10,9 @@ By default, the app runs game gathering logic each X minutes, defined by paramet
 The app has single endpoint - POST /api/Gather/StartGatherData, intended for manual start of game gathering logic.
 
 Game gathering is executed by classes implementing interface IExternalGameProvider. Providers are registered on app start. We can add logic for manual provider registration.
-Currently, 3 sample providers are implemented:
-StaticJsonProvider - returns games from file StaticGames.json in project root.
-SelfGameProvider - sends request to the internal storage, thus, no new games will be added using this provider
+Currently, 3 sample providers are implemented: <br />
+StaticJsonProvider - returns games from file StaticGames.json in project root. <br />
+SelfGameProvider - sends request to the internal storage, thus, no new games will be added using this provider <br />
 RandomGamesProvider - returns random 10 games
 
 2) GameQuery - exposes API for querying the stored games.
