@@ -1,6 +1,5 @@
 ﻿using GameGather.DataAccess.Interfaces;
 using GameGather.Model;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameQuery.Controllers

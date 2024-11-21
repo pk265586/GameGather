@@ -1,8 +1,6 @@
 ﻿using GameGather.Interfaces;
-using GameGather.Provider;
 using GameGather.Configuration;
 using GameGather.DataAccess.Interfaces;
-using GameGather.DataAccess.Provider;
 using GameGather.ExternalApi.Interfaces;
 using GameGather.Logic;
 

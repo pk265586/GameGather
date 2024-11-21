@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using GameGather.ExternalApi.Interfaces;
 using GameGather.Interfaces;
-using GameGather.Configuration;
-using GameGather.Logic;
-using GameGather.DataAccess.Interfaces;
 
 namespace GameGather.Controllers
 {
