@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameGather.DataAccess\GameGather.DataAccess.csproj" />
+    <ProjectReference Include="..\GameGather.ExternalApi\GameGather.ExternalApi.csproj" />
+    <ProjectReference Include="..\GameGather.Logic\GameGather.Logic.csproj" />
+    <ProjectReference Include="..\GameGather.Model\GameGather.Model.csproj" />
+  </ItemGroup>
+
+</Project>

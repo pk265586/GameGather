@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GameGather.DataAccess\GameGather.DataAccess.csproj" />
+    <ProjectReference Include="..\GameGather.ExternalApi\GameGather.ExternalApi.csproj" />
+  </ItemGroup>
+
+</Project>

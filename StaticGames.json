@@ -1,0 +1,37 @@
+[
+  {
+    "StartDate": "2024-01-01T12:00:00",
+    "SportType": "Chess",
+    "Name": "AI World Championship",
+    "TeamName1": "Deep Red",
+    "TeamName2": "Shallow Purple"
+  },
+  {
+    "StartDate": "2024-01-01T15:00:00",
+    "SportType": "Chess",
+    "Name": "Friendly Skirmish",
+    "TeamName1": "Deep Red",
+    "TeamName2": "Mock Ltd."
+  },
+  {
+    "StartDate": "2024-01-01T16:00:00",
+    "SportType": "Chess",
+    "Name": "Friendly Skirmish",
+    "TeamName1": "Deep Red",
+    "TeamName2": "Mock Ltd."
+  },
+  {
+    "StartDate": "2024-01-15T15:00:00",
+    "SportType": "Wrestling",
+    "Name": "Albania Championship",
+    "TeamName1": "Capitans",
+    "TeamName2": "Juniors"
+  },
+  {
+    "StartDate": "2024-01-15T14:30:00",
+    "SportType": "Wrestling",
+    "Name": "Albania Championship",
+    "TeamName1": "Capitans",
+    "TeamName2": "Juniors"
+  }
+]
